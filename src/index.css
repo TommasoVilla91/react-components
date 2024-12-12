@@ -33,10 +33,6 @@ main {
 .col {
     width: 33rem;
     min-height: 35rem;
-    border-radius: 1rem;
-
-    /* debug */
-    border: 1px solid black;
+    border-radius: 1.3rem;
+    overflow: hidden;
 }
-
-/* UTILITIES */

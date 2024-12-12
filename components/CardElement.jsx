@@ -1,4 +1,5 @@
-import style from "./CardElement.module.css"
+import InfoButton from "./InfoButton";
+import style from "./CardElement.module.css";
 
 function CardElement() {
 
@@ -11,7 +12,8 @@ function CardElement() {
                     <p className={style.infos}>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam excepturi quaerat fugiat natus cupiditate corporis quo aspernatur nobis in animi inventore quis provident hic accusantium, tempora saepe deserunt, fugit ratione.
                     </p>
-                </div>
+                    <InfoButton />
+                </div>                
             </div>
         </>
     )
