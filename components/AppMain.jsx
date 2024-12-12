@@ -5,7 +5,7 @@ function AppMain() {
 
     return (
         <>
-            <main>
+            <main className={style.main}>
                 <div className="container">
                     <div className="row">
                         <div className="col">
